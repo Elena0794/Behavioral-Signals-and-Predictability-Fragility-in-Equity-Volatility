@@ -25,4 +25,4 @@ Kurtosis:                       3.393   Cond. No.                         202.
 ==============================================================================
 
 Notes:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.  
