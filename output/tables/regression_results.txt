@@ -1,0 +1,28 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          future_vol_5d   R-squared:                       0.458
+Model:                            OLS   Adj. R-squared:                  0.360
+Method:                 Least Squares   F-statistic:                     4.652
+Date:                Sun, 01 Mar 2026   Prob (F-statistic):            0.00713
+Time:                        16:09:09   Log-Likelihood:                 109.24
+No. Observations:                  27   AIC:                            -208.5
+Df Residuals:                      22   BIC:                            -202.0
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             0.0157      0.004      4.161      0.000       0.008       0.024
+overreaction      0.2501      0.120      2.077      0.050       0.000       0.500
+herding           0.0139      0.005      2.931      0.008       0.004       0.024
+loss_aversion     0.0029      0.002      1.375      0.183      -0.001       0.007
+volume_ratio      0.0016      0.003      0.495      0.625      -0.005       0.008
+==============================================================================
+Omnibus:                        2.674   Durbin-Watson:                   1.163
+Prob(Omnibus):                  0.263   Jarque-Bera (JB):                1.451
+Skew:                          -0.533   Prob(JB):                        0.484
+Kurtosis:                       3.393   Cond. No.                         202.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
